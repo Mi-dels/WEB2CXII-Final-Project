@@ -117,4 +117,7 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+  body {
+    background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg);
+  }
 }
