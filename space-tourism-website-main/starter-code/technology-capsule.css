@@ -192,24 +192,24 @@ body {
   }
   .empty {
     position: absolute;
-    width: 50px;
+    width: 30px;
     height: 5px;
     top: 50%;
     left: 50%;
     border-radius: 25px;
     transform: translate(-50%, 50%) rotate(45deg);
-    background-color: rgba(51, 51, 51, 0.397);
+    background-color: rgba(29, 29, 29, 0.685);
   }
   .ham {
     position: absolute;
-    width: 50px;
+    width: 30px;
     height: 5px;
     top: 60%;
     left: 50%;
 
     border-radius: 25px;
     transform: translate(-50%, 50%) rotate(-45deg);
-    background-color: rgba(51, 51, 51, 0.397);
+    background-color: rgba(29, 29, 29, 0.685);
   }
 
   .navbar {
@@ -223,10 +223,7 @@ body {
     top: 0;
     right: -300px;
     transition: 3s ease;
-    color: rgb(48, 47, 47);
-  }
-  .navbar.active {
-    right: 0;
+    color: rgb(15, 15, 15);
   }
 
   .ulbar {
