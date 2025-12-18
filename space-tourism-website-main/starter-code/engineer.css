@@ -71,6 +71,14 @@ body {
   display: inline;
 }
 
+.emptydiv {
+  width: 530px;
+  height: 0.2px;
+  background-color: var(--rgb-900);
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -132,14 +140,6 @@ body {
   font-family: "Barlow", sans-serif;
   line-height: 20px;
   font-size: 15px;
-}
-
-.emptydiv {
-  width: 530px;
-  height: 0.2px;
-  background-color: var(--rgb-900);
-  margin-left: 150px;
-  margin-top: -50px;
 }
 
 @media screen and (max-width: 450px) {
@@ -280,4 +280,3 @@ body {
     height: auto;
   }
 }
-
