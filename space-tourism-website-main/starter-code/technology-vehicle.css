@@ -222,7 +222,7 @@ body {
     position: fixed;
     top: 0;
     right: -300px;
-    transition: 3s ease;
+    transition: 1s ease;
     color: rgb(15, 15, 15);
   }
 
@@ -242,7 +242,7 @@ body {
     width: 35px;
   }
   .second {
-    width: 55%;
+    width: 60%;
     margin: auto;
 
     margin-top: 30px;
