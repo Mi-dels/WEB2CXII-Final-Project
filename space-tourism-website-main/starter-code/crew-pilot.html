@@ -3,26 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
   <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="crew-pilot.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 </head>
 <body>
-
+  <section class="crew">
+  <div class="crew-content">
+<div class="header">
+  <img src="./assets/shared/logo.svg" alt="logo">
+<div class="hr"></div>
+<button class="hamburger" id="hamburger"> ☰</button>
+</button>
+  <div class="buttons" id="nav">
+  <button>
   00 Home
+</button>
+ <button> 
   01 Destination
-  02 Crew
+  </button>
+  <button>
+    02 Crew
+    </button>
+    <button>
   03 Technology
-
-  02 Meet your crew
-
-  Pilot
-  Victor Glover
-
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+  </button>
+  </div>
+</div>
+<div class="body">
+   <div class="text"> 
+  <h2>02 Meet your crew</h2>
+  <br>
+  <!-- </div> -->
+  <!-- <div class="pilot"> -->
+  <h3>Pilot</h3>
+  <h1>Victor Glover</h1>
+  <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the 
   International Space Station. Glover is a commander in the U.S. Navy where 
   he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
   station systems flight engineer. 
+  </p>
+  <div class="line_btns_1">
+    <input class="btn_1" type="button" id="myButton_1" />
+    <input class="btn_1" type="button" id="myButton_2" />
+    <input class="btn_1" type="button" id="myButton_3" />
+    <input class="btn_1" type="button" id="myButton_4" />
+  </div>
+  </div>
+  <div class="image"> 
+     <img src="./assets/crew/image-victor-glover.png">
+    </div> 
+  </div> 
+  </div>
+  </section>
+  <script src="pilot.js"></script>
 </body>
 </html>
