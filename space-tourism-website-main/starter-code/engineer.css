@@ -80,13 +80,6 @@ body {
   margin-top: -50px;
 }
 
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  width: auto;
-  height: 40px;
-} */
-
 .perfectbody {
   display: flex;
   align-items: center;
@@ -275,5 +268,9 @@ body {
   .btn {
     width: 12px;
     height: 12px;
+  }
+
+  .emptydiv_engineer {
+    display: none;
   }
 }
